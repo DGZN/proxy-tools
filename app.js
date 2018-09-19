@@ -1,5 +1,5 @@
 const ProxyTools = require('./main')
 
-const isAlive = ProxyTools.isAlive('http://bing.com').then((res) => {
- console.log(`SUCCESS [${res.statusCode}]`);
+ProxyTools.isAlive('http://google.com').then((res) => {
+ console.log(`[\u2714] CONNECTED`);
 }).catch(err => console.error(err.message))
