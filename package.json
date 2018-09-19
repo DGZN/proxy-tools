@@ -1,0 +1,25 @@
+{
+  "name": "proxy-tools",
+  "version": "1.0.0",
+  "description": "A set of tools for working with proxies",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DGZN/proxy-tools.git"
+  },
+  "keywords": [
+    "Proxy",
+    "Socks4",
+    "Socks5",
+    "HTTPS-Proxy"
+  ],
+  "author": "Keiichi Lindley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DGZN/proxy-tools/issues"
+  },
+  "homepage": "https://github.com/DGZN/proxy-tools#readme"
+}
